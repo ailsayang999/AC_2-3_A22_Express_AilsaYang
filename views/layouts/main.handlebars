@@ -1,0 +1,25 @@
+<!-- ./views/layouts/main.handlebars -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A22_Express</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <div class="web-wrapper">
+      <!-- header -->
+      <header class="header">
+        <a href="/" class="header__home cursor-hover">回到首頁</a>
+        <div class="header__btn-container">
+          <a href="/about" class="header__about cursor-hover">About</a>
+          <a href="/portfolio" class="header__portfolio cursor-hover">Portfolio</a>
+          <a href="/contact" class="header__contact cursor-hover">Contact</a></div>
+      </header>
+      {{{body}}}
+    </div>
+
+    <script src="/javascripts/script.js"></script>
+  </body>
+</html>
